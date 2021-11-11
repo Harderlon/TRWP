@@ -1,4 +1,4 @@
-.DEMKAStandartForm{
+.StandartForm{
     background: #5fa5b4;
     border-color: #6ac6c5;
     border-style: solid;
@@ -17,21 +17,21 @@ label{
 input{
     display: inline-block;
 }
-.DEMKAmaintable{
+.maintable{
     width:100%;
     letter-spacing:0;
     padding-top:5;
 }
-.DEMKALefttable{
+.Lefttable{
     width: 200px;
     box-align: top;
 }
 
-.DEMKARighttable{
+.Righttable{
     box-align: top;
 }
 
-.DEMKAsendbutton{
+.sendbutton{
     background: linear-gradient(to top, #5fc2c1, white);
     border: none;
     padding: 15px 32px;
@@ -43,7 +43,7 @@ input{
     padding: 5px;
 }
 
-.DEMKAform{
+.form{
     line-height: 1.5;
 }
 
