@@ -1,0 +1,70 @@
+<html>
+<head>
+    <meta charset="utf-8"> <title>Задание 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <style>
+    </style>
+
+</head>
+
+<body>
+
+<form>
+    <div class="center">
+        <h2>Оценка качества сервиса</h2>
+    </div>
+
+    Опрос предназначен для оценки качества сервиса
+    <div class="StandartForm">
+        <legend>Контактная информация</legend>
+
+        <table class="MainTable">
+            <tr>
+                <td class="Lefttable"><label>Имя</label></td><td class="Righttable"><input type="text" name="name" /></td>
+            </tr>
+            <tr>
+                <td class="Lefttable"><label>Телефон</label></td><td class="Righttable"><input type="text" name="phone" /></td>
+            </tr>
+            <tr>
+                <td class="Lefttable"><label>Email</label></td><td class="Righttable"><input type="email" name="email"></td>
+            </tr>
+        </table>
+
+        
+        <table class="MainTable">
+            <tr>
+                <td class="Lefttable"><label>Каким видом сервиса вы пользовались</label></td><td class="Righttable">
+                <select name="programmingLangSelector">
+                    <option value="1">Замена аккумулятора</option>
+                    <option value="2">Замена дисплея</option>
+                    <option value="3">Замена прошивки</option>
+                    <option value="4">Другое</option>
+                </select>
+            </td>
+            </tr>
+        </table>
+
+
+        <label>Как вы оцениваете работу специалиста?</label><br>
+        <input type="radio" name="radiochoise_type" value="1"/><label>Очень плохо</label><br>
+        <input type="radio" name="radiochoise_type" value="2"/><label>Плохо</label><br>
+        <input type="radio" name="radiochoise_type" value="3"/><label>Удовлетворительно</label><br>
+        <input type="radio" name="radiochoise_type" value="4"/><label>Хорошо</label><br>
+        <input type="radio" name="radiochoise_type" value="4"/><label>Отлично</label><br>
+        <tr>
+            <td class="Lefttable"><label>Имеются ли у вас вопросы?</label></td><td class="Righttable"><textarea id="programmingLangList" name="programmingLangList"></textarea></td>
+        </tr>
+
+        <div class="checkbox">
+            <input type="checkbox" id="click">
+            <label for="click" class="text"> Подписаться на рассылку </label>
+        </div>
+
+    </div>
+    <br>
+
+
+</body>
+
+</html>
